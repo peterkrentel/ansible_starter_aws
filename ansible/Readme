@@ -1,0 +1,12 @@
+to setup the env, run the setup-env.yml in aws cloudformation
+
+to create the ansible configs on first run:
+ansible-playbook playbooks/all-playbooks.yml
+
+individuals:
+
+ansible-playbook playbooks/uname.yml
+ansible-playbook playbooks/yum-update.yml
+ansible-playbook playbooks/install-services.yml
+ansible-playbook playbooks/setup-app.yml
+ansible-playbook playbooks/all-playbooks.yml
